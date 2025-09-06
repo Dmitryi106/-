@@ -1,0 +1,46 @@
+{
+    "coord": {
+        "lon": 92.7917,
+        "lat": 56.0097
+    },
+    "weather": [
+        {
+            "id": 804,
+            "main": "Clouds",
+            "description": "\u043f\u0430\u0441\u043c\u0443\u0440\u043d\u043e",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 16.22,
+        "feels_like": 15.36,
+        "temp_min": 16.22,
+        "temp_max": 16.22,
+        "pressure": 1016,
+        "humidity": 56,
+        "sea_level": 1016,
+        "grnd_level": 987
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 4.19,
+        "deg": 282,
+        "gust": 5.78
+    },
+    "clouds": {
+        "all": 100
+    },
+    "dt": 1757144405,
+    "sys": {
+        "type": 1,
+        "id": 8957,
+        "country": "RU",
+        "sunrise": 1757113359,
+        "sunset": 1757161938
+    },
+    "timezone": 25200,
+    "id": 1502026,
+    "name": "\u041a\u0440\u0430\u0441\u043d\u043e\u044f\u0440\u0441\u043a",
+    "cod": 200
+}

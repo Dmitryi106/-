@@ -1,0 +1,23 @@
+1- создать управление погодой
+1.1 - создать функцию которая будет записывать логги с датой
+1.2 - сделать API_KEY приватным
+2- добавить время запроса
+3- попробовать сделать всё через классы
+4- связать это всё с телеграмом
+
+
+
+
+
+
+
+
+-#print(f"Погода для города {city}\n{(weather_city.weather[0]['description']).upper()}"
+ #     f"\nТемпература воздуха: {weather_city.main['temp']}"
+ #     f"\nОщущается как: {weather_city.main['feels_like']}"
+  #    f"\nСкорость ветра: {weather_city.wind['speed']} м/с"
+   #   f"\nВосход: {datetime.datetime.fromtimestamp(weather_city.sys['sunrise'])}"
+    #  f"\nЗакат: {datetime.datetime.fromtimestamp(weather_city.sys["sunset"])}"
+     # f"\nКоординаты\nДолгота: {weather_city.coord['lon']}, \nШирота: {weather_city.coord['lat']}")
+
+
