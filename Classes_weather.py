@@ -1,5 +1,4 @@
 import datetime
-from socket import fromfd
 
 
 class Weather():

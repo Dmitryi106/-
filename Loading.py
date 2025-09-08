@@ -5,6 +5,6 @@ def loading_weather():
         """Загружает данные с погодой"""
         data = json.load(file)
     return data
-loading_weather = loading_weather()
+
 
 
