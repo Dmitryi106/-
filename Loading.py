@@ -7,4 +7,21 @@ def loading_weather():
     return data
 
 
+def check_file_cleared(filename: str) -> bool:
+    """Проверяет что файл содержит пустые данные"""
+    try:
+        with open(filename, 'r', encoding='utf-8') as file:
+            data = json.load(file)
+
+        if isinstance(data, dict):
+            return len(data) == 0
+        elif isinstance(data, list):
+            return len(data) == 0
+        else:
+            return False
+
+    except:
+        return False
+
+
 
