@@ -3,7 +3,8 @@ import datetime
 
 class Weather():
     """Класс с общими данными погоды для определённого города"""
-    def __init__(self, coord, weather, main, winds, sys):
+    def __init__(self,city, coord, weather, main, winds, sys):
+        self.city = city
         self.coord = coord
         self.weather = weather
         self.main = main
@@ -12,7 +13,7 @@ class Weather():
 
     def __str__(self):
         return (
-            f"Погода для города from main import city\n{(self.weather[0]['description']).upper()}"
+            f"Погода для города {self.city}\n{(self.weather[0]['description']).upper()}"
             f"\nТемпература воздуха: {self.main['temp']}"
             f"\nОщущается как: {self.main['feels_like']}"
             f"\nСкорость ветра: {self.winds['speed']} м/с"
